@@ -21,7 +21,7 @@ if (isset($uri[3])) {
     $file = (string) $uri[2];
 }
 
-if (! authenticate()) {
+if (! Authenticator::authenticate()) {
     header("HTTP/1.1 401 Unauthorized");
     exit('Unauthorized');
 }
