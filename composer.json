@@ -1,0 +1,16 @@
+{
+    "name": "baccura/api",
+    "description": "api for Mission Impossible - EasyRecrue",
+    "authors": [
+        {
+            "name": "Baccura",
+            "email": "vignier.jessica@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "require": {}
+}
