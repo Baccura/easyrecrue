@@ -23,11 +23,6 @@ class ConfidentialFile
                     $response = $this->listFiles();
                 };
                 break;
-            case 'POST':
-                $response = $this->createFile();
-            case 'DELETE':
-                $response = $this->deleteFile($this->filename);
-                break;
             default:
                 $response = $this->notFoundResponse();
                 break;
