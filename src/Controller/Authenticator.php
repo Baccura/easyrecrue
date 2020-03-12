@@ -1,5 +1,7 @@
 <?php
 
+namespace Src\Controller;
+
 class Authenticator
 {
     public function authenticate()

@@ -1,5 +1,7 @@
 <?php
 
+namespace Src\Controller;
+
 class ConfidentialFile
 {
     private $requestMethod;
